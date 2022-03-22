@@ -29,7 +29,7 @@ def detect_text(path, platform="instagram"):
                 response.error.message))
 
     if platform == "instagram":
-        username_text = texts_list[::-1][0]
+        username_text = texts_list[:1]
         username = username_text[:len(username_text) - 1]
 
     return username

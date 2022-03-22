@@ -5,3 +5,7 @@
 Added:
 
 - Instagram support
+
+Changed:
+
+- Improved Instagram implementation of username detection
